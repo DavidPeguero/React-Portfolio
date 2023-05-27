@@ -1,0 +1,9 @@
+        
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    font-size: clamp(1rem, 5vw, 2rem);
+}
