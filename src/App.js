@@ -12,17 +12,26 @@ import NoPage from './components/NoPage/NoPage';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Navbar />}>
-          <Route index element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="resume" element={<Resume />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navbar />}>
+            <Route index element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="resume" element={<Resume />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+      <footer className="fixed-bottom">
+                <ul className="d-flex flex-row justify-content-center gap-5" style={{listStyleType : 'none'}}>
+                    <li>GitHub</li>
+                    <li>LinkedIn</li>
+                    <li>StackOverflow</li>
+                </ul>
+      </footer>
+    </div>
   );
 }
 
