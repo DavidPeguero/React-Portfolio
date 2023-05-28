@@ -3,6 +3,12 @@ import './App.css';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
+import Home from './components/Home/Home';
+import Contact from './components/Contact/Contact';
+import Portfolio from './components/Portfolio/Portfolio';
+import NoPage from './components/NoPage/NoPage';
+
+
 
 function App() {
   return (
@@ -10,9 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route path="about" element={<About />} />
-          {/* <Route index element={<Home />} />
-          <Route path="blogs" element={<Blogs />} />
-          <Route path="*" element={<NoPage />} /> */}
+          <Route index element={<Home />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

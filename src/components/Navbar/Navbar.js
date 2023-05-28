@@ -19,13 +19,14 @@ export default function Navbar() {
                     <Stack direction="row" spacing={2} sx={{
                         flexGrow : 1
                     }}>
-                        <Link className="nav-link"><Button color="inherit">Home</Button></Link>
-                        <Link className="nav-link"><Button color="inherit">Portfolio</Button></Link>
+                        <Link to='/' className="nav-link"><Button color="inherit">Home</Button></Link>
+                        <Link to='/portfolio' className="nav-link"><Button color="inherit">Portfolio</Button></Link>
                         <Link to='/about' className="nav-link"><Button color="inherit">About</Button></Link>
-                        <Link className="nav-link"><Button color="inherit">Contact Me</Button></Link>
+                        <Link to='/contact' className="nav-link"><Button color="inherit">Contact Me</Button></Link>
                     </Stack>
                 </Toolbar>
             </AppBar>
+            <Outlet />
             {/* <nav>
                 
                 <h1>David Peguero</h1>  
