@@ -1,7 +1,4 @@
 *{
-    --nav-link-color : 'white'
-}
-
-.nav-link{
-    color : var(--nav-link-color)
+    --nav-link-color : 'white';
+    --nav-link-font-size : clamp(.75rem, 5vw, 1.25rem);
 }
