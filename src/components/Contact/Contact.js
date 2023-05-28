@@ -1,8 +1,30 @@
-export default function Contact(){
+import { useState } from 'react'
+
+export default function Contact() {
+    const [form, setForm] = useState({
+        name: '',
+        email: '',
+
+    })
+
     return (
         <div className="container my-5 mx-6">
-            <h2 className="h2">About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio provident enim, unde soluta reiciendis vero perferendis iure labore voluptates ratione excepturi est explicabo expedita culpa distinctio modi aperiam repellendus, necessitatibus accusamus laboriosam suscipit! Eum earum non enim, eaque officia quibusdam voluptates consequuntur dolorum ab et delectus consectetur nam minus ad!</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" />
+                </div>
+                <div class="mb-3">
+                    <label for="content">Email Content</label>
+                    <textarea class="form-control" id="content" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     )
 }
