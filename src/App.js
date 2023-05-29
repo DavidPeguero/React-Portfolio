@@ -24,7 +24,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-      <footer className="fixed-bottom">
+      <footer className="fixed-bottom bg-secondary">
                 <ul className="d-flex flex-row justify-content-center gap-5" style={{listStyleType : 'none'}}>
                     <li>GitHub</li>
                     <li>LinkedIn</li>
