@@ -1,8 +1,25 @@
 export default function Resume(){
     return (
         <div className="container my-5 mx-6">
-            <h2 className="h2">Resume</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio provident enim, unde soluta reiciendis vero perferendis iure labore voluptates ratione excepturi est explicabo expedita culpa distinctio modi aperiam repellendus, necessitatibus accusamus laboriosam suscipit! Eum earum non enim, eaque officia quibusdam voluptates consequuntur dolorum ab et delectus consectetur nam minus ad!</p>
+            <h2 className="h2 my-4">Resume</h2>
+            <a href="https://drive.google.com/file/d/1nJAQMKR52wd6xhOSed4J7g747_ZBYcmF/view?usp=drive_link">View/Download Resume</a>
+            <h4 className="h4 my-4">Front End Profficiencies</h4>
+            <ul>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <h4 className="h4 my-4">Back End Profficiencies</h4>
+            <ul>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>mySQL</li>
+                <li></li>
+            </ul>
         </div>
     )
 }

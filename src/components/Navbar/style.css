@@ -2,3 +2,12 @@
     --nav-link-color : 'white';
     --nav-link-font-size : clamp(.75rem, 5vw, 1.25rem);
 }
+
+.navbar-nav{
+    text-decoration: none;
+}
+
+.navbar-custom {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
