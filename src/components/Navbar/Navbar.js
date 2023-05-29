@@ -11,7 +11,7 @@ export default function Navbar() {
     }
 
     return (
-        <>
+        <header>
             <nav class="navbar navbar-custom navbar-expand-lg py-3 bg-primary"  >
                 <div class="container-fluid">
                     <div class="navbar-brand text-light">David Peguero</div>
@@ -33,6 +33,6 @@ export default function Navbar() {
             <Outlet />
 
 
-        </>
+        </header>
     )
 }
