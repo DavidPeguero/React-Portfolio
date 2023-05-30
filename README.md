@@ -1,5 +1,5 @@
 
-  # JATE
+  # React Portfolio
   [![](https://img.shields.io/badge/license-MIT-blue)](https://www.mend.io/resources/blog/top-open-source-licenses-explained/#MIT_License)
   ## Description
   Portfolio page made in react to show off my projects, about me information, contact information, and my resume. 
