@@ -9,16 +9,15 @@ export default function Resume(){
                 <li>Bootstrap</li>
                 <li>Javascript</li>
                 <li>Node.js</li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>React</li>
+                <li>Java</li>
+                <li>Python</li>
             </ul>
             <h4 className="h4 my-4">Back End Profficiencies</h4>
             <ul>
                 <li>Express.js</li>
                 <li>MongoDB</li>
                 <li>mySQL</li>
-                <li></li>
             </ul>
         </section>
     )
