@@ -25,7 +25,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-      <footer className=" p-3">
+      <footer className="p-3 fixed-bottom">
                 <ul className="d-flex flex-row justify-content-center align-items-center gap-5" style={{height: '50px',listStyleType : 'none'}}>
                     <a href="https://github.com/DavidPeguero">
                       <li><img className='footer-img' src="./assets/images/github-icon.png" alt="" /></li>
