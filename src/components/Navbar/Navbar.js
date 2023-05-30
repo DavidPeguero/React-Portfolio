@@ -39,7 +39,7 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav me-auto mb2 mb-lg-0 d-flex">
                             <Link to='/React-Portfolio/' ><li className="nav-item" onClick={changePage}><div className={`nav-link ${currentPage === 'about me' ? 'active' : 'text-light'}`}>About Me</div></li></Link>
-                            <Link to='/React-Portfolio/portfolio' onClick={changePage}><li className="nav-item" href="/portfolio" ><div className={`nav-link  ${currentPage === 'portfolio' ? 'active' : 'text-light'}`} value='portfolio' >Portfolio</div></li></Link>
+                            <Link to='/React-Portfolio/portfolio' onClick={changePage}><li className="nav-item"  ><div className={`nav-link  ${currentPage === 'portfolio' ? 'active' : 'text-light'}`} value='portfolio' >Portfolio</div></li></Link>
                             <Link to='/React-Portfolio/contact' ><li className="nav-item" onClick={changePage}><div className={`nav-link ${currentPage === 'contact' ? 'active' : 'text-light'}`}>Contact</div></li></Link>
                             <Link to='/React-Portfolio/resume' ><li className="nav-item" onClick={changePage}><div className={`nav-link  ${currentPage === 'resume' ? 'active' : 'text-light'}`}>Resume</div></li></Link>
                         </ul>
