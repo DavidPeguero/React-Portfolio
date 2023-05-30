@@ -4,7 +4,7 @@
   ## Description
   Portfolio page made in react to show off my projects, about me information, contact information, and my resume. 
   
-  [Deployed Page](https://pacific-bayou-27826.herokuapp.com/)
+  [Deployed Page](https://davidpeguero.github.io/React-Portfolio/)
   ## Table of Contents
   1. [Installation](#installation)
   2. [Usage](#usage)
