@@ -7,8 +7,6 @@ import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import NoPage from './components/NoPage/NoPage';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fas } from '@fortawesome/free-solid-svg-icons'
 
 
 
