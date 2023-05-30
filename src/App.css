@@ -1,0 +1,11 @@
+
+
+.footer-img { 
+    object-fit: contain;
+    height : 50px;
+    transition: 250ms ease-in-out;
+}
+
+.footer-img:hover{
+    filter: invert();
+}

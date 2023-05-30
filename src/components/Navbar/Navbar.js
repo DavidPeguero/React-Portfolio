@@ -1,9 +1,26 @@
-import { Outlet, Link} from "react-router-dom"
-import { useState } from "react";
+import { Outlet, Link } from "react-router-dom"
+import { useEffect, useState } from "react";
 import './style.css'
 
 export default function Navbar() {
-    const [currentPage, setCurrentPage] = useState('about me');
+    const [currentPage, setCurrentPage] = useState('');
+
+    useEffect(() => {
+        const url = window.location.href;
+        switch (url) {
+            case url.includes('contact'):
+                setCurrentPage('contact');
+                break;
+            case url.includes('portfolio'):
+                setCurrentPage('portfolio');
+                break;
+            case url.includes('resume'):
+                setCurrentPage('resume');
+                break;
+            default:
+                setCurrentPage('about me');
+        }
+    }, [])
 
     const changePage = (e) => {
         setCurrentPage(e.target.innerText.toLowerCase())
