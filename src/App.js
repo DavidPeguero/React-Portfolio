@@ -24,19 +24,19 @@ function App() {
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
+        <footer className="p-3">
+                  <ul className="d-flex flex-row justify-content-center align-items-center gap-5" style={{height: '50px',listStyleType : 'none'}}>
+                      <a href="https://github.com/DavidPeguero">
+                        <li><img className='footer-img' src="./assets/images/github-icon.png" alt="" /></li>
+                      </a>
+                      <a href="https://www.linkedin.com/in/david-peguero">
+                        <li><img className='footer-img' src="./assets/images/linked-in-icon.png" alt="" /></li>
+                      </a>
+                      <li><img className='footer-img' src="./assets/images/stack-icon.png" alt="" /></li>
+                      
+                  </ul>
+        </footer>
       </BrowserRouter>
-      <footer className="p-3 fixed-bottom">
-                <ul className="d-flex flex-row justify-content-center align-items-center gap-5" style={{height: '50px',listStyleType : 'none'}}>
-                    <a href="https://github.com/DavidPeguero">
-                      <li><img className='footer-img' src="./assets/images/github-icon.png" alt="" /></li>
-                    </a>
-                    <a href="https://www.linkedin.com/in/david-peguero">
-                      <li><img className='footer-img' src="./assets/images/linked-in-icon.png" alt="" /></li>
-                    </a>
-                    <li><img className='footer-img' src="./assets/images/stack-icon.png" alt="" /></li>
-                    
-                </ul>
-      </footer>
     </div>
   );
 }
