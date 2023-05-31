@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
@@ -14,7 +14,7 @@ function App() {
  
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/React-Portfolio" element={<Navbar />}>
             <Route index element={<About />} />
@@ -36,7 +36,7 @@ function App() {
                       
                   </ul>
         </footer>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
