@@ -16,11 +16,11 @@ function App() {
     <div>
       <HashRouter>
         <Routes>
-          <Route path="/React-Portfolio" element={<Navbar />}>
+          <Route path="/" element={<Navbar />}>
             <Route index element={<About />} />
-            <Route path="/React-Portfolio/contact" element={<Contact />} />
-            <Route path="/React-Portfolio/portfolio" element={<Portfolio />} />
-            <Route path="/React-Portfolio/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

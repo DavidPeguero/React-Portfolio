@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio",
+  "homepage": "/React-Portfolio/#",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,6 +48,5 @@
   },
   "devDependencies": {
     "react-router-dom": "^6.11.2"
-  },
-  "homepage": "https://DavidPeguero.github.io/React-Portfolio"
+  }
 }
